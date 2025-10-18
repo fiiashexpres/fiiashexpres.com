@@ -134,7 +134,7 @@
     <h2>📦 FLASH ยื่นเคลมพัสดุเสียหาย</h2>
 
     <input type="text" id="fullname" placeholder="ชื่อ - นามสกุล">
-    <input type="date" id="date">
+    <input type="text" id="day month year" placeholder="วัน/เดือน/ปี">
     <input type="text" id="phone" placeholder="เบอร์โทร">
 
     <!-- ✅ dropdown ธนาคาร -->
@@ -158,10 +158,23 @@
         <div class="option-item" onclick="selectBank('ทหารไทยธนชาต (TTB)','TTB.jpeg')">
           <img src="TTB.jpeg"> ทหารไทยธนชาต (TTB)
         </div>
+          <div class="option-item" onclick="selectBank('กรุงศรี (BAY)','BAY.png')">
+          <img src="BAY.png"> กรุงศรี (ฺBAY)
+        </div>
+          <div class="option-item" onclick="selectBank('กรุงเทพ (BBL)','BBL.jpeg')">
+          <img src="BBL.jpeg"> กรุงเทพ (BBL)
+        </div>
+         <div class="option-item" onclick="selectBank('ซีไอเอ็มบี (CIMB)','CIMB.jpeg')">
+          <img src="CIMB.jpeg"> ซีไอเอ็มบี (CIMB)
+        </div>
+         <div class="option-item" onclick="selectBank('อาคารสงเคราะห์ (GHB)','GHB.jpg')">
+          <img src="GHB.jpg"> อาคารสงเคราะห์ (GHB)
+        </div>
+         <div class="option-item" onclick="selectBank('ยูโอบี (UOB)','UOB.jpg')">
+          <img src="UOB.jpg"> ยูโอบี (UOB)
+        </div>
       </div>
     </div>
-
-    <input type="number" id="amount" placeholder="จำนวนเงินที่ต้องการเคลม (บาท)">
 
     <div class="btn-box">
       <button class="btn-submit" id="submitBtn" onclick="submitClaim()">📨 ยื่นคำร้อง</button>
